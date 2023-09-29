@@ -47,7 +47,7 @@ class AppLockViewModel: ObservableObject {
                 }
             }
         } else {
-            if enteredPIN == "1234" {
+            if enteredPIN == "1111" {
                 withAnimation{
                     self.jumpToMain = true
                 }

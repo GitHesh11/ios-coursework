@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30B25B052AC54B540044EF10 /* TransferDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B25B042AC54B540044EF10 /* TransferDetailsView.swift */; };
+		30B25B082AC5A6B70044EF10 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 30B25B072AC5A6B70044EF10 /* Kingfisher */; };
+		30B25B0C2AC6B8040044EF10 /* TransfersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B25B0B2AC6B8040044EF10 /* TransfersViewModel.swift */; };
+		30B25B0E2AC6DE770044EF10 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B25B0D2AC6DE770044EF10 /* HomeViewModel.swift */; };
+		30B25B102AC6EEF10044EF10 /* ReportTransferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B25B0F2AC6EEF10044EF10 /* ReportTransferView.swift */; };
+		30B25B122AC703970044EF10 /* ReportCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B25B112AC703970044EF10 /* ReportCategoryView.swift */; };
+		30B25B142AC703A90044EF10 /* ReportCategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B25B132AC703A90044EF10 /* ReportCategoryViewModel.swift */; };
+		30B25B172AC7538C0044EF10 /* YPImagePicker in Frameworks */ = {isa = PBXBuildFile; productRef = 30B25B162AC7538C0044EF10 /* YPImagePicker */; };
+		30B25B192AC7543D0044EF10 /* ImagePickerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B25B182AC7543D0044EF10 /* ImagePickerUtils.swift */; };
 		8D56ADA22ABF13E200F69464 /* MoneyMagnetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D56ADA12ABF13E200F69464 /* MoneyMagnetApp.swift */; };
 		8D56ADA42ABF13E200F69464 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D56ADA32ABF13E200F69464 /* OnboardingView.swift */; };
 		8D56ADA62ABF13E500F69464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D56ADA52ABF13E500F69464 /* Assets.xcassets */; };
@@ -31,6 +40,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30B25B042AC54B540044EF10 /* TransferDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferDetailsView.swift; sourceTree = "<group>"; };
+		30B25B0B2AC6B8040044EF10 /* TransfersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransfersViewModel.swift; sourceTree = "<group>"; };
+		30B25B0D2AC6DE770044EF10 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		30B25B0F2AC6EEF10044EF10 /* ReportTransferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportTransferView.swift; sourceTree = "<group>"; };
+		30B25B112AC703970044EF10 /* ReportCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportCategoryView.swift; sourceTree = "<group>"; };
+		30B25B132AC703A90044EF10 /* ReportCategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportCategoryViewModel.swift; sourceTree = "<group>"; };
+		30B25B182AC7543D0044EF10 /* ImagePickerUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerUtils.swift; sourceTree = "<group>"; };
 		8D56AD9E2ABF13E200F69464 /* MoneyMagnet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyMagnet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D56ADA12ABF13E200F69464 /* MoneyMagnetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyMagnetApp.swift; sourceTree = "<group>"; };
 		8D56ADA32ABF13E200F69464 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -58,8 +74,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30B25B082AC5A6B70044EF10 /* Kingfisher in Frameworks */,
 				8DED62702AC12FA80047F296 /* PopupView in Frameworks */,
 				8DED625F2ABFFED50047F296 /* CustomTextField in Frameworks */,
+				30B25B172AC7538C0044EF10 /* YPImagePicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +137,9 @@
 				8D56ADBB2ABF3FE300F69464 /* OnboardingViewModel.swift */,
 				8DED62602AC09A910047F296 /* AuthenticationViewModel.swift */,
 				8DED62642AC0A02D0047F296 /* AppLockViewModel.swift */,
+				30B25B0B2AC6B8040044EF10 /* TransfersViewModel.swift */,
+				30B25B0D2AC6DE770044EF10 /* HomeViewModel.swift */,
+				30B25B132AC703A90044EF10 /* ReportCategoryViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -134,6 +155,9 @@
 				8D7AB92B2AC1F21500A48A6D /* HomeView.swift */,
 				8D7AB92D2AC1F22600A48A6D /* TransfersView.swift */,
 				8D7AB92F2AC1F23500A48A6D /* ProfileView.swift */,
+				30B25B042AC54B540044EF10 /* TransferDetailsView.swift */,
+				30B25B0F2AC6EEF10044EF10 /* ReportTransferView.swift */,
+				30B25B112AC703970044EF10 /* ReportCategoryView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -152,6 +176,7 @@
 				8DED626A2AC0CCB70047F296 /* UserDefaultsManager.swift */,
 				8DED626C2AC0D8070047F296 /* NetworkUtils.swift */,
 				8D7AB9312AC20B2000A48A6D /* CurvedShape.swift */,
+				30B25B182AC7543D0044EF10 /* ImagePickerUtils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -175,6 +200,8 @@
 			packageProductDependencies = (
 				8DED625E2ABFFED50047F296 /* CustomTextField */,
 				8DED626F2AC12FA80047F296 /* PopupView */,
+				30B25B072AC5A6B70044EF10 /* Kingfisher */,
+				30B25B162AC7538C0044EF10 /* YPImagePicker */,
 			);
 			productName = MoneyMagnet;
 			productReference = 8D56AD9E2ABF13E200F69464 /* MoneyMagnet.app */;
@@ -207,6 +234,8 @@
 			packageReferences = (
 				8DED625D2ABFFED50047F296 /* XCRemoteSwiftPackageReference "SwiftUI-Custom-TextField" */,
 				8DED626E2AC12FA80047F296 /* XCRemoteSwiftPackageReference "PopupView" */,
+				30B25B062AC5A6B70044EF10 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				30B25B152AC7538C0044EF10 /* XCRemoteSwiftPackageReference "YPImagePicker" */,
 			);
 			productRefGroup = 8D56AD9F2ABF13E200F69464 /* Products */;
 			projectDirPath = "";
@@ -235,20 +264,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30B25B0E2AC6DE770044EF10 /* HomeViewModel.swift in Sources */,
 				8DED62612AC09A910047F296 /* AuthenticationViewModel.swift in Sources */,
 				8DED62632AC09F860047F296 /* AppLockView.swift in Sources */,
 				8D7AB92C2AC1F21500A48A6D /* HomeView.swift in Sources */,
 				8DED626B2AC0CCB70047F296 /* UserDefaultsManager.swift in Sources */,
 				8DED62692AC0C7100047F296 /* MainTabView.swift in Sources */,
 				8D56ADA42ABF13E200F69464 /* OnboardingView.swift in Sources */,
+				30B25B102AC6EEF10044EF10 /* ReportTransferView.swift in Sources */,
 				8D7AB9322AC20B2000A48A6D /* CurvedShape.swift in Sources */,
 				8D56ADBE2ABF77CF00F69464 /* AuthenticationView.swift in Sources */,
+				30B25B142AC703A90044EF10 /* ReportCategoryViewModel.swift in Sources */,
+				30B25B052AC54B540044EF10 /* TransferDetailsView.swift in Sources */,
 				8D7AB9302AC1F23500A48A6D /* ProfileView.swift in Sources */,
 				8DED626D2AC0D8070047F296 /* NetworkUtils.swift in Sources */,
+				30B25B192AC7543D0044EF10 /* ImagePickerUtils.swift in Sources */,
+				30B25B0C2AC6B8040044EF10 /* TransfersViewModel.swift in Sources */,
 				8D56ADA22ABF13E200F69464 /* MoneyMagnetApp.swift in Sources */,
 				8D56ADBA2ABF3FAF00F69464 /* OnboardingModel.swift in Sources */,
 				8D56ADBC2ABF3FE300F69464 /* OnboardingViewModel.swift in Sources */,
 				8DED62722AC137070047F296 /* UserModel.swift in Sources */,
+				30B25B122AC703970044EF10 /* ReportCategoryView.swift in Sources */,
 				8DED62652AC0A02D0047F296 /* AppLockViewModel.swift in Sources */,
 				8D7AB92E2AC1F22600A48A6D /* TransfersView.swift in Sources */,
 			);
@@ -381,6 +417,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MoneyMagnet/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Access your camera to take and share photos within the app.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Access your photo library to select and share images within the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -412,6 +450,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MoneyMagnet/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Access your camera to take and share photos within the app.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Access your photo library to select and share images within the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -457,6 +497,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		30B25B062AC5A6B70044EF10 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.9.1;
+			};
+		};
+		30B25B152AC7538C0044EF10 /* XCRemoteSwiftPackageReference "YPImagePicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Yummypets/YPImagePicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.2;
+			};
+		};
 		8DED625D2ABFFED50047F296 /* XCRemoteSwiftPackageReference "SwiftUI-Custom-TextField" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/esatgozcu/SwiftUI-Custom-TextField";
@@ -476,6 +532,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		30B25B072AC5A6B70044EF10 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B25B062AC5A6B70044EF10 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		30B25B162AC7538C0044EF10 /* YPImagePicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B25B152AC7538C0044EF10 /* XCRemoteSwiftPackageReference "YPImagePicker" */;
+			productName = YPImagePicker;
+		};
 		8DED625E2ABFFED50047F296 /* CustomTextField */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8DED625D2ABFFED50047F296 /* XCRemoteSwiftPackageReference "SwiftUI-Custom-TextField" */;
