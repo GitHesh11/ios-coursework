@@ -40,7 +40,7 @@ struct ProfileView: View {
                     .scaledToFit()
                     .frame(height: 40)
             }
-            VStack(spacing: 2){
+            VStack(spacing: 15){
                 HStack(alignment: .center){
                     ZStack {
                         Rectangle()

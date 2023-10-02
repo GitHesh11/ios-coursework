@@ -157,7 +157,7 @@ struct CustomTabBar: View {
             TabBarButton(image: "ic_user", selectedTab: $selectedTab, selectedImage: $selectedImage, tabPoints: $tabPoints)
         }
         .padding()
-        .background(Color("ShadeRed"))
+        .background(Color("ColorViolet"))
         .cornerRadius(20)
         .padding(.horizontal)
     }

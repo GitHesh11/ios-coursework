@@ -14,18 +14,6 @@ struct HomeView: View {
         VStack(spacing: 0){
             VStack{
                 HStack{
-                    ZStack(alignment: .center) {
-                        Image("ic_profile")
-                            .resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(width: 35, height: 35)
-                            .clipShape(Circle())
-                            .overlay(
-                                Circle()
-                                    .stroke(Color("SecondaryColor"), lineWidth: 2)
-                            )
-                    }
-                    Spacer(minLength: 0)
                     Button(action: {
                         withAnimation{
                             homeVM.showWalletFilter.toggle()
@@ -50,17 +38,11 @@ struct HomeView: View {
                             .frame(width: 35, height: 35)
                     })
                 }
-                VStack{
-                    Text("Account Balance")
-                        .foregroundColor(.gray)
-                    Text("$ \(String(format: "%.2f", homeVM.walletResponse.incomeAmount - homeVM.walletResponse.expenseAmount))")
-                        .font(.system(size: 48, weight: .semibold))
-                }
                 HStack(spacing: 5){
                     HStack(alignment: .center){
                         Image("ic_income")
                             .resizable()
-                            .frame(width: 50, height: 50)
+                            .frame(width: 40, height: 40)
                             .padding(.trailing, 5)
                         VStack(spacing: 5){
                             Text("Income")
@@ -76,13 +58,13 @@ struct HomeView: View {
                         }
                     }
                     .padding(.vertical)
-                    .padding(.horizontal, 20)
+                    .padding(.horizontal, 10)
                     .background(.green)
                     .cornerRadius(10)
                     HStack(alignment: .center){
                         Image("ic_expense")
                             .resizable()
-                            .frame(width: 50, height: 50)
+                            .frame(width: 40, height: 40)
                             .padding(.trailing, 5)
                         VStack(spacing: 5){
                             Text("Expense")
@@ -98,12 +80,22 @@ struct HomeView: View {
                         }
                     }
                     .padding(.vertical)
-                    .padding(.horizontal, 20)
+                    .padding(.horizontal, 10)
                     .background(.red)
                     .cornerRadius(10)
                 }
+                VStack{
+                    Text("Account Balance")
+                        .foregroundColor(.gray)
+                    Text("$ \(String(format: "%.2f", homeVM.walletResponse.incomeAmount - homeVM.walletResponse.expenseAmount))")
+                        .font(.system(size: 48, weight: .semibold))
+                }
             }
-            .padding(.bottom, 10)
+            .padding(.vertical, 10)
+            .padding(.horizontal, 15)
+            .background(Color("ColorViolet"))
+            .cornerRadius(15)
+            .shadow(color: Color.black.opacity(0.2), radius: 4, x: 0, y: 2)
             .padding(.horizontal, 25)
             VStack(alignment: .leading){
                 HStack{
@@ -115,7 +107,7 @@ struct HomeView: View {
                                 .padding(.horizontal, 20)
                                 .background(
                                     Capsule()
-                                        .fill(homeVM.filterTime == index ? Color("SecondaryColor").opacity(0.5) : .clear).opacity(0.2)
+                                        .fill(homeVM.filterTime == index ? Color("ColorViolet") : .clear)
                                 )
                                 .onTapGesture(){
                                     withAnimation {
@@ -131,7 +123,7 @@ struct HomeView: View {
                 }
                 .background(
                     Capsule()
-                        .fill(Color("SecondaryColor").opacity(0.3)).opacity(0.2)
+                        .fill(Color("ColorViolet").opacity(0.3))
                 )
                 Text("Recent Transactions")
                     .font(.system(size: 18, weight: .bold))
@@ -226,7 +218,6 @@ struct HomeView: View {
             .cornerRadius(topLeft: 20, topRight: 20, bottomLeft: 0, bottomRight: 0)
             .edgesIgnoringSafeArea(.bottom)
         }
-        .background(Color(.yellow).opacity(0.2))
         .onAppear{
             homeVM.getUserBalance()
             homeVM.getUserTransactions()
