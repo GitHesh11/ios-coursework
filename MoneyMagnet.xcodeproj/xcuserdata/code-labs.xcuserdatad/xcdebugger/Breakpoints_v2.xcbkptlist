@@ -3,4 +3,243 @@
    uuid = "750A9209-AAAF-4757-9C73-F8C7281FF8CF"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8FE96F59-2E09-4973-842B-55619B8E031C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoneyMagnet/View/TransferDetailsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "8FE96F59-2E09-4973-842B-55619B8E031C - a7ccf1a6c98ec0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in MoneyMagnet.TransferDetailsView.body.getter : some"
+                  moduleName = "MoneyMagnet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/code-labs/Documents/Personal/Projects/ios-coursework/MoneyMagnet/View/TransferDetailsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "584">
+               </Location>
+               <Location
+                  uuid = "8FE96F59-2E09-4973-842B-55619B8E031C - 22f70cab5e70be26"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text, SwiftUI.Spacer)&gt; in closure #2 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in MoneyMagnet.TransferDetailsView.body.getter : some"
+                  moduleName = "MoneyMagnet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/code-labs/Documents/Personal/Projects/ios-coursework/MoneyMagnet/View/TransferDetailsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "244">
+               </Location>
+               <Location
+                  uuid = "8FE96F59-2E09-4973-842B-55619B8E031C - 22f70cab5e70be07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text, SwiftUI.Spacer)&gt; in closure #2 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in MoneyMagnet.TransferDetailsView.body.getter : some"
+                  moduleName = "MoneyMagnet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/code-labs/Documents/Personal/Projects/ios-coursework/MoneyMagnet/View/TransferDetailsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "296">
+               </Location>
+               <Location
+                  uuid = "8FE96F59-2E09-4973-842B-55619B8E031C - 22f70cab5e70bf0f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Text, SwiftUI.Spacer)&gt; in closure #2 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0 in MoneyMagnet.TransferDetailsView.body.getter : some"
+                  moduleName = "MoneyMagnet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/code-labs/Documents/Personal/Projects/ios-coursework/MoneyMagnet/View/TransferDetailsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "296">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2568B44C-75A1-44B9-95C1-0F7AB7473593"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoneyMagnet/ViewModel/ReportTransferViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "reportTransfer()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2568B44C-75A1-44B9-95C1-0F7AB7473593 - c6c1b17fa51a9d9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in MoneyMagnet.ReportTransferViewModel.reportTransfer() -&gt; ()"
+                  moduleName = "MoneyMagnet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/code-labs/Documents/Personal/Projects/ios-coursework/MoneyMagnet/ViewModel/ReportTransferViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "2568B44C-75A1-44B9-95C1-0F7AB7473593 - c6c1b17fa51a9dc4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in MoneyMagnet.ReportTransferViewModel.reportTransfer() -&gt; ()"
+                  moduleName = "MoneyMagnet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/code-labs/Documents/Personal/Projects/ios-coursework/MoneyMagnet/ViewModel/ReportTransferViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7FA47A9F-9DFA-4A38-99AD-04CF5E198A9F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoneyMagnet/ViewModel/ReportTransferViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "reportTransfer()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7FA47A9F-9DFA-4A38-99AD-04CF5E198A9F - ebff2f30922b97b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyMagnet.ReportTransferViewModel.reportTransfer() -&gt; ()"
+                  moduleName = "MoneyMagnet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/code-labs/Documents/Personal/Projects/ios-coursework/MoneyMagnet/ViewModel/ReportTransferViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "2180">
+               </Location>
+               <Location
+                  uuid = "7FA47A9F-9DFA-4A38-99AD-04CF5E198A9F - ebff2f30922b97b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyMagnet.ReportTransferViewModel.reportTransfer() -&gt; ()"
+                  moduleName = "MoneyMagnet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/code-labs/Documents/Personal/Projects/ios-coursework/MoneyMagnet/ViewModel/ReportTransferViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "2508">
+               </Location>
+               <Location
+                  uuid = "7FA47A9F-9DFA-4A38-99AD-04CF5E198A9F - ebff2f30922b97f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MoneyMagnet.ReportTransferViewModel.reportTransfer() -&gt; ()"
+                  moduleName = "MoneyMagnet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/code-labs/Documents/Personal/Projects/ios-coursework/MoneyMagnet/ViewModel/ReportTransferViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "2508">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A9017DD9-2447-4F65-8503-6BB3BDA551C4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MoneyMagnet/ViewModel/ReportTransferViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "reportTransfer()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A9017DD9-2447-4F65-8503-6BB3BDA551C4 - c6c1b17fa51a9dc4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in MoneyMagnet.ReportTransferViewModel.reportTransfer() -&gt; ()"
+                  moduleName = "MoneyMagnet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/code-labs/Documents/Personal/Projects/ios-coursework/MoneyMagnet/ViewModel/ReportTransferViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "A9017DD9-2447-4F65-8503-6BB3BDA551C4 - c6c1b17fa51a9d06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in MoneyMagnet.ReportTransferViewModel.reportTransfer() -&gt; ()"
+                  moduleName = "MoneyMagnet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/code-labs/Documents/Personal/Projects/ios-coursework/MoneyMagnet/ViewModel/ReportTransferViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
